@@ -9,7 +9,7 @@ Created on Wed Sep  4 14:00:33 2019
 import cartopy.crs as ccrs
 import matplotlib.pyplot as plt
 
-import cartopy_fork.io.img_tiles as cimgt
+import cartopy.io.img_tiles as cimgt
 
 def plot_track_with_tiles(tiler, title=None, **kwargs):
     """
